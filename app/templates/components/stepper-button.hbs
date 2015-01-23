@@ -1,0 +1,15 @@
+{{#if reverseOrdering}}
+    {{#unless hideIncrement}}
+        <button class="btn btn-default" {{action "increment"}}>+</button>
+    {{/unless}}
+    {{#unless hideDecrement}}
+        <button class="btn btn-default" {{action "decrement"}}>-</button>
+    {{/unless}}
+{{else}}
+    {{#unless hideDecrement}}
+        <button class="btn btn-default" {{action "decrement"}}>-</button>
+    {{/unless}}
+    {{#unless hideIncrement}}
+        <button class="btn btn-default" {{action "increment"}}>+</button>
+    {{/unless}}
+{{/if}}

@@ -1,25 +1,25 @@
-# Stepper-button
+# stepper-button
 
-This README outlines the details of collaborating on this Ember addon.
+A simple ember-cli stepper-button. Uses bootstrap classes for button layout and assumes your project has bootstrap.css
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+`ember install:addon stepper-button`
 
-## Running
+## Use
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+####Normal Ordering
 
-## Running Tests
+`{{stepper-button decrement="decrement" increment="increment"}}`
 
-* `ember test`
-* `ember test --server`
+####Reverse Ordering
 
-## Building
+`{{stepper-button decrement="decrement" increment="increment" reverseOrdering=true}}`
 
-* `ember build`
+####Only show increment
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+`{{stepper-button increment="increment" hideDecrement=true}}`
+
+####Only show decrement
+
+`{{stepper-button decrement="decrement" hideIncrement=true}}`
