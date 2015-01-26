@@ -1,6 +1,6 @@
 {
   "name": "stepper-button",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple component using bootstrap button groups. Has an increment/decrement button for positive and negative actions",
   "directories": {
     "doc": "doc",
