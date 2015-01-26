@@ -1,7 +1,7 @@
 {
   "name": "stepper-button",
   "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "A simple component using bootstrap button groups. Has an increment/decrement button for positive and negative actions",
   "directories": {
     "doc": "doc",
     "test": "tests"
